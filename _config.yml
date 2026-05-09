@@ -16,7 +16,7 @@ timezone: Europe/Paris
 
 title: Ivan's blog
 
-tagline: Applied and pure math # it will display as the sub-title
+tagline: Learning the quantum
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -37,6 +37,7 @@ social:
   name: Ivan Beschastnyi
   email: ivan.beschastnyi@inria.fr # change to your email address
   links:
+    - https://sites.google.com/view/ivan-bes/home
     # The first element serves as the copyright owner's link
     #- https://twitter.com/username # change to your twitter homepage
     #- https://github.com/username # change to your github homepage
@@ -153,6 +154,7 @@ baseurl: ""
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
+  math_engine: mathjax
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
   syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
